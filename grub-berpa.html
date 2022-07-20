@@ -3,7 +3,7 @@
    <head>
       <meta charset="utf-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
-      <title>Proqramlar &mdash; PacPERRO</title>
+      <title>GRUB Bərpa &mdash; PacPERRO</title>
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <meta name="description" content="Debian bazalı Azərbaycanın yerli Linux əməliyyat sistemi - PacPERRO OS" />
       <meta name="keywords" content="linux, azerbaycan, azerbaijan, distro, debian" />
@@ -42,8 +42,8 @@
                         <ul>
                            <li><a href="index.html">Ana Səhifə</a></li>
                            <li><a href="versiyalar.html">Versiyalar</a></li>
-                           <li class="active"><a href="proqramlar.html">Proqramlar</a></li>
-                           <li><a href="grub-berpa.html">GRUB bərpa</a></li>
+                           <li><a href="proqramlar.html">Proqramlar</a></li>
+                           <li class="active"><a href="grub-berpa.html">GRUB bərpa</a></li>
                            <li><a href="haqqinda.html">Haqqında</a></li>
                         </ul>
                      </div>
@@ -51,69 +51,46 @@
                </div>
             </div>
          </nav>
-
-         <div id="pacperro-proqramlar">
+         <div id="pacperro-about">
             <div class="container">
-               <div class="services-padding">
-                  <div class="row animate-box">
-                     <div class="col-md-12 text-center pacperro-heading">
-                        <h1>Proqramlar</h1>
-                        <p>Proqramların hamısı .azp paketlidir.</p>
-                     </div>
+               <div class="row animate-box">
+                  <div class="col-md-8 col-md-offset-2 text-center pacperro-heading">
+                     <h2>GRUB Bərpa</h2>
+                     <p>Sistemi quraşdırdıqdan sonra grub necə quraşdırılır ?</p>
+                     <p>Əməliyyat sistemini quraşdırdıqdan sonra əgər komputeriniz UEFI biosdursa o zaman sisteminiz açılmaya bilər. Bu problemin həlli üçün pacperro-grub-rebuilder'dən istifadə edərək quraşdırılan grub'u yenidən bərpa edə bilərsiniz</p>
+                     <p>(Bu prosesləri sistemi quraşdırdıqdan sonra komputeri söndürmədən yəni sisteminiz usb üzərindən çalışan zaman həyata keçirməlisiniz)</p>
+                     <p>Əgər əməliyyat sistemində pacperro-grub-rebuilder yoxdursa, bu kodları icra edin: `sudo azp install pacperro-grub-rebuilder`</p>
                   </div>
-                  <div class="row">
-                     <div class="col-md-4 animate-box">
-                        <div class="feature-left">
-                           <div class="feature-copy">
-                              <h3>pacperro-tools</h3>
-                              <p><a target="_blank" href="https://azp-paket-sistemi.github.io/azp-depo/p/pacperro-tools/pacperro-tools.html">Yüklə <i class="icon-arrow-down22"></i></a></p>
-                           </div>
-                        </div>
-                     </div>
-                     <div class="col-md-4 animate-box">
-                        <div class="feature-left">
-                           <div class="feature-copy">
-                              <h3>pacperro-usb-formatter</h3>
-                              <p><a target="_blank" href="https://azp-paket-sistemi.github.io/azp-depo/p/pacperro-usb-formatter/pacperro-usb-formatter.html">Yüklə <i class="icon-arrow-down22"></i></a></p>
-                           </div>
-                        </div>
-                     </div>
-                     <div class="col-md-4 animate-box">
-                        <div class="feature-left">
-                           <div class="feature-copy">
-                              <h3>pacperro-wallpaper</h3>
-                              <p><a target="_blank" href="https://azp-paket-sistemi.github.io/azp-depo/p/pacperro-wallpaper/pacperro-wallpaper.html">Yüklə <i class="icon-arrow-down22"></i></a></p>
-                           </div>
-                        </div>
-                     </div>
-                     <div class="col-md-4 animate-box">
-                        <div class="feature-left">
-                           <div class="feature-copy">
-                              <h3>pacperro-about</h3>
-                              <p><a target="_blank" href="https://azp-paket-sistemi.github.io/azp-depo/p/pacperro-about/pacperro-about.html">Yüklə <i class="icon-arrow-down22"></i></a></p>
-                           </div>
-                        </div>
-                     </div>
-                     <div class="col-md-4 animate-box">
-                        <div class="feature-left">
-                           <div class="feature-copy">
-                              <h3>pacperro-welcome</h3>
-                              <p><a target="_blank" href="https://azp-paket-sistemi.github.io/azp-depo/p/pacperro-welcome/pacperro-welcome.html">Yüklə <i class="icon-arrow-down22"></i></a></p>
-                           </div>
-                        </div>
-                     </div>
-		     <div class="col-md-4 animate-box">
-                        <div class="feature-left">
-                           <div class="feature-copy">
-                              <h3>pacperro-grub-installer</h3>
-                              <p><a target="_blank" href="https://azp-paket-sistemi.github.io/azp-depo/p/pacperro-grub-installer/pacperro-grub-installer.html">Yüklə <i class="icon-arrow-down22"></i></a></p>
-                           </div>
-                        </div>
-                     </div>
+               </div>
+               <div class="row animate-box">
+                  <div class="col-md-8 col-md-offset-2 text-center pacperro-heading">
+                     <p>İlk öncə terminalı açın və `sudo pacperro-grub-rebuilder` yazın</p>
+                     <img src="images/grub-rebuild/img1.png"></img>
+                     <br>
+                  </div>
+               </div>
+               <div class="row animate-box">
+                  <div class="col-md-8 col-md-offset-2 text-center pacperro-heading">
+                     <p>Daha sonra isə gələn ekranda sistemi quraşdırdığınız zaman seçdiyiniz /boot/efi bölümünün sda'sını daxil edin. (Məsələn: sda2)</p>
+                     <p>(Əgər sistemi diskləri ayırmadan bütün diskə quraşdırmısınızsa o zaman ekranda 200M önündəki sda(X)'i seçin)</p>
+                     <img src="images/grub-rebuild/img2.png"></img>
+                  </div>
+               </div>
+               <div class="row animate-box">
+                  <div class="col-md-8 col-md-offset-2 text-center pacperro-heading">
+                     <p>Daha sonra isə proqram sizdən 'grub.cfg' faylını istəyəcəkdir. Faylı, sistemi quraşdırdığınız diskin içinə daxil olaraq oradan /boot/grub içərisindən konumunu kopyalayıb proqrama daxil edin.</p>
+                     <img src="images/grub-rebuild/img3.png"></img>
+                  </div>
+               </div>
+               <div class="row animate-box">
+                  <div class="col-md-8 col-md-offset-2 text-center pacperro-heading">
+                     <h2>GRUB Bərpa prosesi uğurla başa çatdı !</h2>
+                     <p>(Proqram komputerinizi avtomatik yenidən başladacaq və quraşdırdığınız PacPERRO açılacaqdır)</p>
                   </div>
                </div>
             </div>
          </div>
+
          <footer id="pacperro-footer" role="contentinfo">
             <div class="container">
                <div class="row copyright">
@@ -153,3 +130,4 @@
       <script src="js/main.js"></script>
    </body>
 </html>
+
