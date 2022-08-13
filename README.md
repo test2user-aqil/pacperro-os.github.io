@@ -1,10 +1,10 @@
 # [PacPERRO Saytı](https://pacperro-os.github.io/)
  PacPERRO Rəsmi Saytı 
 
-| Route | Description |
+| Route | Təsvir |
 | --- | ----------- |
 | `/` | Əsas səhifə |
 | `/versiyalar` | Bütün versiyaların olduğu səhifə |
 | `/proqramlar` | PacPERRO'ya məxsus programlar |
-| `/grub-berpa` | Text |
+| `/grub-berpa` | GRUB'ı bərpa etmək üçün bələdçi |
 | `/haqqinda` | OS haqqında məlumat |
