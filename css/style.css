@@ -448,6 +448,10 @@ h1, h2, h3, h4, h5, h6, figure {
   #pacperro-proqramlar .feature-left .feature-copy {
     width: 70%;
   }
+  #pacperro-banner {
+    width: 400px;
+    height: 100px;
+  }
 }
 #pacperro-proqramlar .feature-left h3 {
   font-size: 24px;
